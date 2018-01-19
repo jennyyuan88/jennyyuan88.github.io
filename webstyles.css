@@ -39,6 +39,7 @@
   color: white;
 }
 
+/* Text Formats */
 .text1 {
   text-align: left;
   color: DimGray;
@@ -49,4 +50,53 @@
 }
 .list1 {
   list-style-type: square;
+}
+.content{
+    max-width:980px;
+    margin:auto;
+}
+.center{
+    text-align:center;
+}
+/* Colour Formats*/
+
+.black{
+    color:white;
+    background-color:black;
+}
+
+.lightGray{
+    color:black;
+    background-color: lightgray;
+}
+
+/* Bar Formats*/
+
+.bar {
+    width:100%;
+    overflow:hidden;
+}
+
+.barItem{
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    outline:none;
+    display:block;
+}
+
+.barButton{
+    border:none;
+    display:inline-block;
+    outline:0;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
 }
